@@ -31,8 +31,8 @@ A realy lightweight Terminal. we have to patch a lot to get work with this.
 - DMenu (Dynamic Menu)
 In simple words you can launch your programs and also
 
- ```scripting and piping input/output.``` 
+   ```scripting and piping input/output.``` 
  
- ```its realy a cool light weight program for Developers and coders,```
+   ```its realy a cool light weight program for Developers and coders,```
  
- ```as well as Archers(LunuxUsers{archBTW)```
+   ```as well as Archers(LunuxUsers{archBTW)```
