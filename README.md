@@ -13,7 +13,7 @@ i mean thats the reason we are using DWM right ?
 
 ## What is DWM
 
-DWM Stands for Dynamic Window Manager which is 
+DWM Stands for Dynamic Window Manager, which is 
 Suckless's utility.
 ``
 thats why it sucks less
