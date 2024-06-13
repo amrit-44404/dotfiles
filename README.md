@@ -14,10 +14,16 @@ i mean thats the reason we are using DWM right ?
 ## What is DWM
 
 DWM Stands for Dynamic Window Manager, which is 
-Suckless's utility.
+Suckless's utility. Written in C.
 ``
 thats why it sucks less
 ``
 
 ## What i have in my setup
 
+I have DWM with its we can say some kinds of dependencies 
+### ST (Simple Terminal)
+A realy lightweight Terminal. we have to patch a lot to get work with this.
+### It doesn't even have a scroll feature out of the box.
+
+### DMenu (Dynamic Menu)
