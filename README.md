@@ -15,9 +15,9 @@ i mean thats the reason we are using DWM right ?
 
 DWM Stands for Dynamic Window Manager which is 
 Suckless's utility.
-```
+``
 thats why it sucks less
-```
+``
 
 ## What i have in my setup
 
