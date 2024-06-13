@@ -29,3 +29,6 @@ A realy lightweight Terminal. we have to patch a lot to get work with this.
   ```It doesn't even have a scroll feature out of the box.```
 
 - DMenu (Dynamic Menu)
+In simple words you can launch your programs and also
+
+ ```scripting and piping input/output. its realy a cool light weight program for Developers and coders as well as Archers(LunuxUsers{archBTW)```
