@@ -1,0 +1,69 @@
+# Brightness
+alt + p
+    brightnessctl set 5%+
+alt + l
+    brightnessctl set 5%-
+XF86MonBrightnessUp
+    brightnessctl set 5%+ 
+XF86MonBrightnessDown
+    brightnessctl set 5%- 
+
+# audio 
+F12
+    amixer -q sset Master 5%+
+F11
+    amixer -q sset Master 5%-
+F10
+    amixer -q sset Master toggle
+XF86AudioRaiseVolume
+    amixer -q sset Master 5%+
+XF86AudioLowerVolume
+    amixer -q sset Master 5%-
+XF86AudioMute
+    amixer -q sset Master toggle
+
+#PLAY
+XF86AudioPlay
+    playerctl play-pause
+XF86AudioNext
+    playerctl next
+XF86AudioPrev
+    playerctl previous
+XF86AudioStop
+    playerctl stop
+
+#packages
+super + Return
+    st 
+super + n
+    st -e vim
+super + shift + s
+	pkill -USR1 -x sxhkd
+ctrl + shift + Escape 
+	st -e htop
+
+#archlinux-logout
+ctrl + alt + l
+    archlinux-logout
+ctrl + alt + Return
+    st
+ctrl + alt + m
+     xfce4-settings-manager
+
+#Scrot
+Print
+    scrot 'ArchLinux-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
+#Picom Toggle
+ctrl + alt + p
+    ~/.config/arco-dwm/scripts/picom-toggle.sh
+
+#rofi
+#super + p
+#    ~/.config/arco-dwm/launcher/launcher.sh
+#Xkill
+#super + Escape
+#    xkill
+#Rofi theme selector
+#ctrl + alt + r
+#  rofi-theme-selector
+
