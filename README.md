@@ -26,6 +26,6 @@ I have DWM with its we can say some kinds of dependencies
 A realy lightweight Terminal. we have to patch a lot to get work with this.
 
 
-```It doesn't even have a scroll feature out of the box.```
+  ```It doesn't even have a scroll feature out of the box.```
 
 - DMenu (Dynamic Menu)
