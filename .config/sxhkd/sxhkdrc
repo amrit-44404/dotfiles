@@ -55,7 +55,7 @@ Print
     scrot 'ArchLinux-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
 #Picom Toggle
 ctrl + alt + p
-    ~/.config/arco-dwm/scripts/picom-toggle.sh
+    ~/.config/scripts/picom-toggle.sh
 
 #rofi
 #super + p
