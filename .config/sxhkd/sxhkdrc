@@ -56,7 +56,9 @@ Print
 #Picom Toggle
 ctrl + alt + p
     ~/.config/scripts/picom-toggle.sh
-
+ctrl + alt + o
+    ~/.config/scripts/xset.sh
+    
 #rofi
 #super + p
 #    ~/.config/arco-dwm/launcher/launcher.sh
