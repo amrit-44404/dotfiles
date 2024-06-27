@@ -7,7 +7,6 @@ XF86MonBrightnessUp
     brightnessctl set 5%+ 
 XF86MonBrightnessDown
     brightnessctl set 5%- 
-
 # audio 
 F12
     amixer -q sset Master 5%+
@@ -21,7 +20,6 @@ XF86AudioLowerVolume
     amixer -q sset Master 5%-
 XF86AudioMute
     amixer -q sset Master toggle
-
 #PLAY
 XF86AudioPlay
     playerctl play-pause
@@ -31,7 +29,6 @@ XF86AudioPrev
     playerctl previous
 XF86AudioStop
     playerctl stop
-
 #packages
 super + Return
     st 
@@ -43,15 +40,11 @@ ctrl + shift + Escape
 	st -e htop
 ctrl + alt + Return
     st
-#Scrot
-Print
-    scrot 'archlinux-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
 #Picom Toggle
 ctrl + alt + p
     ~/.config/scripts/picom-toggle.sh
 ctrl + alt + o
     ~/.config/scripts/xset.sh
-    
 #rofi
 #super + p
 #    ~/.config/arco-dwm/launcher/launcher.sh
@@ -66,3 +59,6 @@ ctrl + alt + o
 #    archlinux-logout
 #ctrl + alt + m
 #     xfce4-settings-manager
+#Scrot
+#Print
+#    scrot 'archlinux-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
