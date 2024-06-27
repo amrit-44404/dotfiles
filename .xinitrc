@@ -37,6 +37,7 @@ fi
 xset r rate 300 50 &
 sxhkd &
 picom &
-#nitrogen --restore &
-feh --bg-fill $HOME/.local/share/wallpapers/dwm.jpg &
+$HOME/.local/bin/newlook &
+wal -i $HOME/.local/share/wallpapers/12.jpg &
+feh --bg-fill $HOME/.local/share/wallpapers/12.jpg &
 exec dwm
