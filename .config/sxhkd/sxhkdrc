@@ -35,9 +35,9 @@ super + Return
 super + n
     st -e nvim
 super + shift + s
-	pkill -USR1 -x sxhkd
+    pkill -USR1 -x sxhkd
 ctrl + shift + Escape 
-	st -e htop
+    st -e htop
 ctrl + alt + Return
     st
 #Picom Toggle
