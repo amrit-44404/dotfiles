@@ -37,7 +37,5 @@ fi
 xset r rate 300 50 &
 sxhkd &
 picom &
-$HOME/.local/bin/newlook &
-wal -i $HOME/.local/share/wallpapers/12.jpg &
-feh --bg-fill $HOME/.local/share/wallpapers/12.jpg &
+feh --bg-fill $HOME/.local/share/wallpapers/dwm.jpg &
 exec dwm
