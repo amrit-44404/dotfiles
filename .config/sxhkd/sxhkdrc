@@ -45,20 +45,7 @@ ctrl + alt + p
     ~/.config/scripts/picom-toggle.sh
 ctrl + alt + o
     ~/.config/scripts/xset.sh
-#rofi
-#super + p
-#    ~/.config/arco-dwm/launcher/launcher.sh
-#Xkill
 #super + Escape
 #    xkill
-#Rofi theme selector
-#ctrl + alt + r
-#  rofi-theme-selector
-#archlinux-logout
-#ctrl + alt + l
-#    archlinux-logout
-#ctrl + alt + m
-#     xfce4-settings-manager
-#Scrot
 #Print
 #    scrot 'archlinux-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
