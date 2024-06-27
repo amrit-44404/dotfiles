@@ -5,14 +5,6 @@ usermodmap=$HOME/.Xmodmap
 sysresources=/etc/X11/xinit/.Xresources
 sysmodmap=/etc/X11/xinit/.Xmodmap
 
-while true; do
-                time="$(date +"%I:%M %p")"
-                date="$(date +"%a, %B %d")"
-                battery=$(cat /sys/class/power_supply/BAT0/capacity)
-                xsetroot -name "[ 📅 $date ][ 🧭 $time ][ 💀 $battery% ]"
-		sleep 60
-done &
-
 # merge in defaults and keymaps
 if [ -f $sysresources ]; then
     xrdb -merge $sysresources
