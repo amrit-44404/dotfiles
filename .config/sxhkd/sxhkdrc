@@ -46,6 +46,10 @@ ctrl + alt + o
     ~/.config/scripts/xset.sh
 shift + alt + l
     st -e slock
+shift + alt + d
+    st -e shutdown
+shift + alt + r
+    st -e reboot
 #super + Escape
 #    xkill
 #Print
