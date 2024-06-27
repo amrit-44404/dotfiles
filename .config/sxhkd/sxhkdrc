@@ -29,7 +29,6 @@ XF86AudioPrev
     playerctl previous
 XF86AudioStop
     playerctl stop
-#packages
 super + Return
     st 
 super + n
@@ -45,6 +44,8 @@ ctrl + alt + p
     ~/.config/scripts/picom-toggle.sh
 ctrl + alt + o
     ~/.config/scripts/xset.sh
+shift + alt + l
+    st -e slock
 #super + Escape
 #    xkill
 #Print
