@@ -18,14 +18,9 @@ alias la='ls -a'
 alias ll='ls -la'
 alias ld='tree'
 alias lt='tree'
-alias un='paru -Rncsu'
-alias unp='sudo pacman -Rncsu'
-alias up='paru -Syu' # update system/package/aur
-alias pl='paru -Qs' # list installed package
-alias pa='paru -Ss' # list availabe package
-alias pc='paru -Sc' # remove unused cache
-alias po='paru -Qtdq | paru -Rns -'
-alias poo='pacman -Qtdq | sudo pacman -Rncsu -'
+alias qt='pacman -Qt'
+alias un='sudo pacman -Rncsu'
+alias pc='sudo pacman -Scc' # remove unused cache
 
 #youtube download
 alias yta-aac="yt-dlp --extract-audio --audio-format aac "
