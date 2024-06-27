@@ -41,18 +41,11 @@ super + shift + s
 	pkill -USR1 -x sxhkd
 ctrl + shift + Escape 
 	st -e htop
-
-#archlinux-logout
-ctrl + alt + l
-    archlinux-logout
 ctrl + alt + Return
     st
-ctrl + alt + m
-     xfce4-settings-manager
-
 #Scrot
 Print
-    scrot 'ArchLinux-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
+    scrot 'archlinux-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
 #Picom Toggle
 ctrl + alt + p
     ~/.config/scripts/picom-toggle.sh
@@ -68,4 +61,8 @@ ctrl + alt + o
 #Rofi theme selector
 #ctrl + alt + r
 #  rofi-theme-selector
-
+#archlinux-logout
+#ctrl + alt + l
+#    archlinux-logout
+#ctrl + alt + m
+#     xfce4-settings-manager
