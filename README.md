@@ -1,7 +1,7 @@
 # download all packages/Dependencies for my build of DWM
 
 ```bash
-sudo pacman -S picom lf sxhkd xorg-xset alsa-utils brightnessctl bleachbit feh htop ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-font-awesome neovim wget unzip 
+sudo pacman -S picom lf sxhkd xorg-xset alsa-utils brightnessctl bleachbit feh htop ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-font-awesome neovim wget unzip xf86-input-synaptics libxft libxinerama
 ```
 
 # About My Setup
