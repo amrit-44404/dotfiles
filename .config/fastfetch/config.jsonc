@@ -45,6 +45,11 @@
             "key": "WM  ",
             "keyColor": "36", 
         },
+        {
+            "type": "uptime",
+            "key": "UT  ",
+            "keyColor": "36", 
+        },
         "break",
     ]
 }
