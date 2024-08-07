@@ -7,3 +7,8 @@ cd $HOME/.local/src
 git clone https://aur.archlinux.org/yay-git.git &&
 yay -S gtk-theme-arc-gruvbox-git
 ```
+# Auto install script
+note: it has ditfiles from my [gitlab](https://gitlab.com/amrit-44404/archrice)
+```
+https://gitlab.com/amrit-44404/arch-install
+```
